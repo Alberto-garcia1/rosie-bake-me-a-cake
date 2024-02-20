@@ -34,26 +34,27 @@
   color: white;
 }
 
-.skills {
-  font-size: 35px;
-  width: 100%;
+.carousel-container {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  align-items: center;
+  margin-top: 20px;
+  padding-top: 50px;
+
 }
 
-.skills h1 {
-  color: #3e497a;
+.carousel-img {
+  width: 700px;
+  height: auto;
 }
 
-.skills .list {
-  list-style: none;
-  width: 60%;
+.carousel-label {
+  color: black;
 }
 
-.list span {
-  font-size: 20px;
+.carousel-text {
+  color: black;
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -67,14 +68,8 @@
     width: 80%;
   }
 
-  .skills {
+  .carousel-container {
     text-align: center;
   }
-  .list {
-    padding: 0;
-  }
 
-  .skills h2 {
-    font-size: 30px;
-  }
 }

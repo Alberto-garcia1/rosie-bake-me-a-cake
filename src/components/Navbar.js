@@ -26,7 +26,9 @@ function Navbar() {
       <div className="links">
         {/* Links to different routes */}
         <Link to="/Just-Cake">Home</Link>
-        <Link to="/Personal-Website/Cajes">Previous Cakes</Link>
+        <Link to="/Just-Cake/Cakes">Previous Cakes</Link>
+        <Link to="/Just-Cake/CupCakes">CupCakes</Link>
+        <Link to="/Just-Cake/Cookies">Cookies</Link>
       </div>
     </div>
   );

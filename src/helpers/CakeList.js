@@ -8,7 +8,7 @@ export const CakeList = [
     skills: "HTML, CSS, JavaScript",
   },
   {
-    name: "Weather App",
+    name: "",
     //image: WeatherApp, // Importing the image for the Weather App
     skills: "HTML, CSS, JavaScript, React, WeatherAPI",
   },

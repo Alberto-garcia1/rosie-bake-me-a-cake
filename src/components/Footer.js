@@ -10,7 +10,7 @@ function Footer() {
       <div className="socialMedia">
         {/* Instagram link */}
         <a
-          href="https://www.instagram.com/alberto.g8/"
+          href="https://www.instagram.com/rosie_bakemeacake/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -26,7 +26,7 @@ function Footer() {
         </a>
       </div>
       {/* Copyright statement */}
-      <p>ⓒ {year} Alberto Garcia</p>
+      <p>Website Created by Alberto Garcia ⓒ {year} </p>
     </div>
   );
 }

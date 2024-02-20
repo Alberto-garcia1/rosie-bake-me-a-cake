@@ -5,6 +5,9 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Cakes from "./pages/Cakes"; // Import the Cakes component
 import CakeDisplay from "./pages/CakeDisplay";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
 
 function App() {
   return (
