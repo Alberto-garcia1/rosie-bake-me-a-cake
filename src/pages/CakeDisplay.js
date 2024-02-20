@@ -13,7 +13,7 @@ function CakeDisplay() {
   }
 
   return (
-    <div className="project">
+    <div className="cake">
       {/* Displaying project name */}
       <h1>{cake.name}</h1>
       {/* Displaying project image */}

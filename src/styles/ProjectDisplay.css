@@ -1,4 +1,4 @@
-.project {
+.cake {
     width: 100%;
     height: calc(100vh - 100px);
     display: flex;
@@ -8,22 +8,22 @@
     padding-top: 3%;
   }
   
-  .project h1 {
+  .cake h1 {
     margin-top: 50px;
     color: #3e497a;
     font-size: 35px;
   }
-  .project img {
+  .cake img {
     width: 600px;
     border-radius: 10px;
   }
   
-  .project p {
+  .cake p {
     font-size: 40px;
     color: #3e497a;
   }
   
-  .project svg {
+  .cake svg {
     font-size: 60px;
     color: #3e497a;
   }

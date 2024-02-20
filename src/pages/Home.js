@@ -14,7 +14,7 @@ function Home() {
       {/* Profile picture */}
       {/* <img src={ProfilePic} alt="Profile" style={imageStyle} /> */}
       <div className="about">
-        <h2>Hello My Name Is Alberto</h2>
+        <h2>Hey My Name is Rose!</h2>
         <div className="prompt">
           {/* Description about yourself */}
           <p>
@@ -24,7 +24,7 @@ function Home() {
         </div>
       </div>
       <div className="skills">
-        <h1> Skills</h1>
+        <h1>Skills</h1>
         <ol className="list">
           {/* List of skills */}
           <li className="item">
