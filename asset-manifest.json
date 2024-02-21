@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/just-cake/static/css/main.df327d9a.css",
-    "main.js": "/just-cake/static/js/main.262f4a98.js",
+    "main.css": "/just-cake/static/css/main.2845f23c.css",
+    "main.js": "/just-cake/static/js/main.ae048083.js",
+    "static/media/plaidBackground.jpg": "/just-cake/static/media/plaidBackground.7a432838033eb0f6fdd7.jpg",
     "index.html": "/just-cake/index.html",
-    "main.df327d9a.css.map": "/just-cake/static/css/main.df327d9a.css.map",
-    "main.262f4a98.js.map": "/just-cake/static/js/main.262f4a98.js.map"
+    "main.2845f23c.css.map": "/just-cake/static/css/main.2845f23c.css.map",
+    "main.ae048083.js.map": "/just-cake/static/js/main.ae048083.js.map"
   },
   "entrypoints": [
-    "static/css/main.df327d9a.css",
-    "static/js/main.262f4a98.js"
+    "static/css/main.2845f23c.css",
+    "static/js/main.ae048083.js"
   ]
 }
