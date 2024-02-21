@@ -5,7 +5,9 @@ function CookieItem({ image, name }) {
 
   return (
     <div
-      className="cookieItem" >
+      /*cakeItme should be differnet name because of css */
+      className="cakeItem"
+    >
       {/* Display the project image as a background */}
       <div style={{ backgroundImage: `url(${image})` }} className="bgImage" />
       {/* Display the project name */}

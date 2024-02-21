@@ -5,6 +5,7 @@ function CakeItem({ image, name }) {
 
   return (
     <div
+      /*cakeItme should be differnet name because of css */
       className="cakeItem"
     >
       {/* Display the project image as a background */}

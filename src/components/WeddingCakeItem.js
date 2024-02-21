@@ -1,17 +1,12 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
 
-function WeddingCakeItem({ image, name, id }) {
+function WeddingCakeItem({ image, name }) {
   // Get the navigate function from react-router-dom
-  const navigate = useNavigate();
 
   return (
     <div
-      className="weddingCakeItem"
-      // When clicked, navigate to the project detail page with the specified id
-      onClick={() => {
-        navigate("/Just-Cake/project/" + id);
-      }}
+      /*cakeItme should be differnet name because of css */
+      className="cakeItem"
     >
       {/* Display the project image as a background */}
       <div style={{ backgroundImage: `url(${image})` }} className="bgImage" />
