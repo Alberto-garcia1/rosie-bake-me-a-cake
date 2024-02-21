@@ -1,18 +1,11 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
 
-function CookieItem({ image, name, id }) {
+function CookieItem({ image, name }) {
   // Get the navigate function from react-router-dom
-  const navigate = useNavigate();
-  
+
   return (
     <div
-      className="cookieItem"
-      // When clicked, navigate to the project detail page with the specified id
-      onClick={() => {
-        navigate("/Just-Cake/project/" + id);
-      }}
-    >
+      className="cookieItem" >
       {/* Display the project image as a background */}
       <div style={{ backgroundImage: `url(${image})` }} className="bgImage" />
       {/* Display the project name */}

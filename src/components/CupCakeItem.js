@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 function CupCakeItem({ image, name, id }) {
   // Get the navigate function from react-router-dom
   const navigate = useNavigate();
-  
+
   return (
     <div
       className="cupCakeItem"

@@ -18,7 +18,7 @@ function Home() {
       {/* Profile picture */}
       {/*<img src={ProfilePic} alt="Profile" style={imageStyle} /> */}
       <div className="about">
-        <h2>Rosie's It's Just Cake</h2>
+        <h2>Rosie Bake Me A Cake</h2>
         <div className="prompt">
           {/* Description about yourself */}
           <p>
