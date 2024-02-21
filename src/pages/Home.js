@@ -34,21 +34,27 @@ function Home() {
             <img src={cake1} className="carousel-img" alt="First slide" />
             <Carousel.Caption>
               <h3 className="carousel-label">First slide label</h3>
-              <p className="carousel-text">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              <p className="carousel-text">
+                Nulla vitae elit libero, a pharetra augue mollis interdum.
+              </p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item className="carousel-item" interval={5000}>
             <img src={cake2} className="carousel-img" alt="Second slide" />
             <Carousel.Caption>
               <h3 className="carousel-label">Second slide label</h3>
-              <p className="carousel-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p className="carousel-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item className="carousel-item" interval={5000}>
             <img src={cake3} className="carousel-img" alt="Third slide" />
             <Carousel.Caption>
               <h3 className="carousel-label">Third slide label</h3>
-              <p className="carousel-text">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+              <p className="carousel-text">
+                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+              </p>
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>

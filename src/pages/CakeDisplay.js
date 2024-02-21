@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import { CakeList } from "../helpers/CakeList"; // Importing the list of projects
-import "../styles/ProjectDisplay.css";
+import "../styles/CakeDisplay.css";
 
 function CakeDisplay() {
   const { id } = useParams(); // Accessing the id parameter from the URL

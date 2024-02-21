@@ -3,9 +3,9 @@
 // Array containing details of different projects
 export const CakeList = [
   {
-    name: "",
+    name: "Wedding",
     //image: //KeeperApp, // Importing the image for the Keeper App
-    skills: "HTML, CSS, JavaScript",
+    details: "6in frosted",
   },
   {
     name: "",
