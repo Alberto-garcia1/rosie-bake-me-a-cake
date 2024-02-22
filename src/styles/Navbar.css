@@ -14,8 +14,7 @@
   }
 
   .logo{
-    position: relative;
-    right: 80px;
+    position:static;
     border-radius: 50%;
     height: 85px;
   }
@@ -75,6 +74,7 @@
     #close a {
       display: none;
     }
+
   }
   
   @media only screen and (min-width: 600px) {

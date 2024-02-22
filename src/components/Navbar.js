@@ -24,10 +24,9 @@ function Navbar() {
           <ReorderIcon />
         </button>
       </div>
-      
       <div className="links">
         {/* Links to different routes */}
-        <img src={Logo} className="logo"/>
+        <img src={Logo} className="logo" />
         <Link to="/Just-Cake">Home</Link>
         <Link to="/Just-Cake/cakes">Cakes</Link>
         <Link to="/Just-Cake/weddingCakes">Wedding Cakes</Link>

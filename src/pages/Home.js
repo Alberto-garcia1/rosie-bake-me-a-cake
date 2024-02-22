@@ -1,13 +1,12 @@
 import React from "react";
 import "../styles/Home.css";
 import { Carousel } from "react-bootstrap";
+import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
 import cake1 from "../assets/cake1.jpeg";
 import cake2 from "../assets/cake2.jpeg";
 import cake3 from "../assets/cake3.jpeg";
-//import ProfilePic from "../assets/ProfilePic.jpg";
 
 function Home() {
-  // Style for the profile picture
   const imageStyle = {
     width: "250px",
     borderRadius: "50%",
@@ -15,21 +14,21 @@ function Home() {
 
   return (
     <div className="home">
-      {/* Profile picture */}
-      {/*<img src={ProfilePic} alt="Profile" style={imageStyle} /> */}
       <div className="about">
         <h2>Rosie Bake Me A Cake</h2>
         <div className="prompt">
-          {/* Description about yourself */}
           <p>
             A software developer with a passion for learning and creating
             beautiful websites.
           </p>
         </div>
       </div>
-      {/* Carousel */}
       <div className="carousel-container">
-        <Carousel className="carousel">
+        <Carousel
+          className="carousel"
+          prevIcon={<BsChevronLeft />}
+          nextIcon={<BsChevronRight />}
+        >
           <Carousel.Item className="carousel-item" interval={5000}>
             <img src={cake1} className="carousel-img" alt="First slide" />
             <Carousel.Caption>
