@@ -1,13 +1,13 @@
 import React from "react";
 import CupCakeItem from "../components/CupCakeItem"; // Importing the ProjectItem component
 import { CupCakeList } from "../helpers/CupCakeList"; // Importing the list of projects
-import "../styles/Project.css";
+import "../styles/ProjectPages.css";
 
 function CupCakes() {
   return (
     <div className="cakes">
       <h1>Cupcakes</h1>
-      <div className="projectList">
+      <div className="cakeList">
         {/* Mapping through the list of projects and rendering ProjectItem for each */}
         {CupCakeList.map((cake, idx) => {
           return (

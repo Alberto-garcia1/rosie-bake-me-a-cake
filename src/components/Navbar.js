@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
+import Logo from "../assets/Logo.jpg";
 import "../styles/Navbar.css";
 import ReorderIcon from "@mui/icons-material/Reorder";
 
@@ -23,8 +24,10 @@ function Navbar() {
           <ReorderIcon />
         </button>
       </div>
+      
       <div className="links">
         {/* Links to different routes */}
+        <img src={Logo} className="logo"/>
         <Link to="/Just-Cake">Home</Link>
         <Link to="/Just-Cake/cakes">Cakes</Link>
         <Link to="/Just-Cake/weddingCakes">Wedding Cakes</Link>

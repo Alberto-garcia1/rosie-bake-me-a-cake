@@ -1,13 +1,13 @@
 import React from "react";
 import CookieItem from "../components/CookieItem";
 import { CookieList } from "../helpers/CookieList"; // Importing the list of projects
-import "../styles/Project.css";
+import "../styles/ProjectPages.css";
 
 function Cookies() {
   return (
     <div className="cakes">
       <h1>Cookies</h1>
-      <div className="projectList">
+      <div className="cakeList">
         {/* Mapping through the list of projects and rendering ProjectItem for each */}
         {CookieList.map((cookie, idx) => {
           return (
