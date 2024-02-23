@@ -1,14 +1,9 @@
-.navbar {
-    width: 100%;
-    height: 100px;
-    background-color: #f9adee;
-  }
-
   .custom-navbar {
     background-color: pink;
+    width: 100%
   }
   
-  .nav-links {
+  .nav-link {
     width: 100%;
     height: 100%;
     display: flex;
@@ -18,6 +13,7 @@
   }
 
   .logo{
+    display:flex;
     border-radius: 50%;
     height: 85px;
     width: 85px;
@@ -26,32 +22,14 @@
   .navbar a {
     color: white;
     text-decoration: none;
-    margin: 20px;
     font-size: 25px;
-  }
-  
-  .toggleButton {
     width: 100%;
-    height: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-  }
-  
-  .toggleButton svg {
-    font-size: 50px;
-  }
-  
-  .toggleButton button {
-    margin-right: 20px;
-    background-color: transparent;
-    border: none;
-    color: white;
-    cursor: pointer;
+    margin: 0;
   }
   
   #open {
     height: 100vh;
+    width: 100%;
   }
   
   #open .links {
@@ -85,28 +63,30 @@
       height: 50px;
       width: 50px;
     }
+
     li.nav-item {
       flex-direction: column;
       background-color: pink;
+      width: 100%;
+      margin: 0px;
+      padding: 0px;
     }
-
   }
   
   @media only screen and (min-width: 600px) {
-    .toggleButton {
-      display: none;
-    }
-  
     .hiddenLinks {
       display: none;
     }
   
     #open {
       height: 100px;
+      width: 100%;
     }
   
     li.nav-item {
       flex-direction: column;
       background-color: pink;
+      width: 100%;
+      
     }
   }

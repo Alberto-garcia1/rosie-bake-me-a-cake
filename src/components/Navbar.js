@@ -17,12 +17,15 @@ function CustomNavbar() {
   return (
     <div className="navbar-container">
       <Navbar expand="md" className="custom-navbar">
-        <NavbarBrand className="ms-5" href="/just-cake">
+        <NavbarBrand className="ms-4" href="/just-cake">
           <img src={Logo} alt="logo" className="logo" />
         </NavbarBrand>
-        <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} className="menu"/>
+        <NavbarToggler
+          onClick={() => setMenuOpen(!menuOpen)}
+          className="menu"
+        />
         <Collapse isOpen={menuOpen} navbar>
-          <Nav className="ms-auto" navbar>
+          <Nav className="ms-auto" navbar >
             <NavItem>
               <Link className="nav-link" to="Just-Cake/">
                 Home
@@ -44,10 +47,8 @@ function CustomNavbar() {
               </Link>
             </NavItem>
             <NavItem>
-              {" "}
-              {/* Added wrapping NavItem */}
               <Link className="nav-link" to="Just-Cake/cupcakes">
-                <i className="fa fa-address-card fa-lg" /> Cupcakes
+                Cupcakes
               </Link>
             </NavItem>
           </Nav>
