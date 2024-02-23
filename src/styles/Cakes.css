@@ -43,6 +43,11 @@ td {
     text-align: center;
 }
   
+.description {
+  font-size: 30px;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
   /* MENU ITEM STYLING */
   
   .cakeItem {
@@ -94,4 +99,7 @@ td {
       width: 300px;
       height: 300px;
     }
+    .description {
+      font-size: 15px;
   }
+}

@@ -1,7 +1,9 @@
 import React from "react";
 import CakeItem from "../components/CakeItem"; // Importing the ProjectItem component
 import { CakeList } from "../helpers/CakeList"; // Importing the list of projects
-import "../styles/ProjectPages.css";
+//import "../styles/ProjectPages.css";
+import "../styles/Cakes.css";
+import { Table } from "react-bootstrap";
 
 function Cakes() {
   return (
@@ -16,7 +18,7 @@ function Cakes() {
         })}
       </div>
       <div>
-        <p>
+        <p className="description" >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
           ultrices luctus odio, eu lobortis dui dictum non. Mauris et dui
           dapibus, malesuada erat eu, faucibus tortor. Mauris consectetur
@@ -32,30 +34,36 @@ function Cakes() {
         </p>
       </div>
       <div className="info-table">
-        <table>
+        <Table bordered hover responsive size="" striped>
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>First Name</th>
+              <th>Last Name</th>
+              <th>Username</th>
+            </tr>
+          </thead>
           <tbody>
             <tr>
-              <th>Name</th>
-              <th>Age</th>
-              <th>Gender</th>
+              <th scope="row">1</th>
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>@mdo</td>
             </tr>
             <tr>
-              <td>Anom</td>
-              <td>19</td>
-              <td>Male</td>
+              <th scope="row">2</th>
+              <td>Jacob</td>
+              <td>Thornton</td>
+              <td>@fat</td>
             </tr>
             <tr>
-              <td>Megha</td>
-              <td>19</td>
-              <td>Female</td>
-            </tr>
-            <tr>
-              <td>Subham</td>
-              <td>25</td>
-              <td>Male</td>
+              <th scope="row">3</th>
+              <td>Larry</td>
+              <td>the Bird</td>
+              <td>@twitter</td>
             </tr>
           </tbody>
-        </table>
+        </Table>
       </div>
     </div>
   );
