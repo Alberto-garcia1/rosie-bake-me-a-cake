@@ -58,6 +58,7 @@
     flex-direction: column;
     justify-content: flex-start;
     margin-top: 100px;
+
   }
   
   #open a {
@@ -72,7 +73,7 @@
   }
   
   @media only screen and (max-width: 600px) {
-    .toggleButton {
+    .navbar-toggle-icon {
       display: flex;
     }
     #close a {
@@ -83,6 +84,10 @@
       border-radius: 50%;
       height: 50px;
       width: 50px;
+    }
+    li.nav-item {
+      flex-direction: column;
+      background-color: pink;
     }
 
   }
@@ -100,7 +105,8 @@
       height: 100px;
     }
   
-    #open .links {
-      flex-direction: row;
+    li.nav-item {
+      flex-direction: column;
+      background-color: pink;
     }
   }
