@@ -1,7 +1,7 @@
 import React from "react";
 import CookieItem from "../components/CookieItem";
 import { CookieList } from "../helpers/CookieList"; // Importing the list of projects
-import "../styles/ProjectPages.css";
+import "../styles/Cakes.css";
 
 function Cookies() {
   return (

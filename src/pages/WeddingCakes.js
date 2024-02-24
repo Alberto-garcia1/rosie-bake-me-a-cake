@@ -1,7 +1,7 @@
 import React from "react";
 import WeddingCakeItem from "../components/WeddingCakeItem"; // Importing the ProjectItem component
 import { WeddingCakeList } from "../helpers/WeddingCakeList"; // Importing the list of projects
-import "../styles/ProjectPages.css";
+import "../styles/Cakes.css";
 import { Table } from "react-bootstrap";
 
 

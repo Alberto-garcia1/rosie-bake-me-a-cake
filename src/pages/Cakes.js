@@ -1,7 +1,6 @@
 import React from "react";
 import CakeItem from "../components/CakeItem"; // Importing the ProjectItem component
 import { CakeList } from "../helpers/CakeList"; // Importing the list of projects
-//import "../styles/ProjectPages.css";
 import "../styles/Cakes.css";
 import { Table } from "react-bootstrap";
 
