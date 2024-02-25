@@ -1,14 +1,8 @@
 import "../styles/Home.css";
 import { Container, Row, Col, Carousel } from "react-bootstrap";
-// import cake1 from "../assets/cake1.jpeg";
-// import cake2 from "../assets/cake2.jpeg";
-// import cake3 from "../assets/cake3.jpeg";
+import BakeMeACakeLogo from "../assets/BakeMeACakeLogo.png";
 
 function Home() {
-  // const imageStyle = {
-  //   width: "250px",
-  //   borderRadius: "50%",
-  // };
 
   // Define items array outside of the return statement
   const items = [
@@ -33,23 +27,24 @@ function Home() {
   ];
 
   return (
-    <Container>
+    <Container fluid="true">
       <Row>
         <Col>
           <div className="home">
             <div className="about">
-              <h2>Rosie Bake Me A Cake</h2>
-              <div className="prompt">
+              <h2 className="alt-font-color">Rosie </h2><h2>Bake Me A Cake</h2>
+              <div className="prompt">      
+              <img src={BakeMeACakeLogo} className="imageStyle" alt="Slogan"/>
                 <p>
-                  A software developer with a passion for learning and creating
-                  beautiful websites.
+                  Baking Beautiful <br></br>Memories
                 </p>
               </div>
             </div>
           </div>
         </Col>
       </Row>
-      <Carousel className="carousel" fluid autoPlay={true} interval={4000} controls={false} indicators={false}>
+
+      <Carousel className="carousel" fluid autoPlay={true} interval={4000} controls={true} indicators={true}>
         {items.map((item) => (
           <Carousel.Item key={item.key}>
             <img className="d-block w-100" src={item.src} alt={item.altText} />

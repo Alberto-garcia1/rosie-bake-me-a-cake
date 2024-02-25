@@ -10,24 +10,22 @@ h2 {
   padding-bottom: 100px;
 }
 
-.about {
-  width: 100%;
-  height: calc(100vh - 100px);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  /* background-image: url("../assets/plaidBackground.jpg");
-  background-size: cover; */
-  background-color: white;
+.alt-font-color {
+  color: #fda6ea;
 }
 
 .about h2 {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Great Vibes", cursive;
   font-size: 80px;
-  color: pink;
+  color: rgb(56, 56, 56);
   height: 50px;
+}
+
+.imageStyle {
+  width: 250px;
+  /* border-Radius: 50%; */
+  margin-bottom: 30px; 
+  margin-top: 0;
 }
 
 .about .prompt {
@@ -38,15 +36,6 @@ h2 {
   font-size: 60px;
   margin: 5px;
   color: white;
-}
-
-.carousel-container {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  background-color: #f9adee;
-  padding-top: 50px;
-
 }
 
 .carousel-img {
@@ -83,6 +72,14 @@ h2 {
     text-align: center;
     height: 50px;
     font-size: 20px;
+  }
+
+  .imageStyle {
+    width: 125px;
+  }
+  
+  p {
+    font-size: 15px;
   }
 
 }

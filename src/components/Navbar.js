@@ -28,27 +28,27 @@ function CustomNavbar() {
           <Nav className="ms-auto" navbar >
             <NavItem>
               <Link className="nav-link" to="Just-Cake/">
-                Home
+                |Home|
               </Link>
             </NavItem>
             <NavItem>
               <Link className="nav-link" to="Just-Cake/cakes">
-                Cakes
+                |Cakes|
               </Link>
             </NavItem>
             <NavItem>
               <Link className="nav-link" to="Just-Cake/cookies">
-                Cookies
+                |Sugar| |Cookies|
               </Link>
             </NavItem>
             <NavItem>
               <Link className="nav-link" to="Just-Cake/weddingCakes">
-                Wedding Cakes
+                |Wedding| |Cakes|
               </Link>
             </NavItem>
             <NavItem>
               <Link className="nav-link" to="Just-Cake/cupcakes">
-                Cupcakes
+                |Cupcakes|
               </Link>
             </NavItem>
           </Nav>

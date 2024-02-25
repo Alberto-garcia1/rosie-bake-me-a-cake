@@ -1,5 +1,5 @@
   .custom-navbar {
-    background-color: pink;
+    background-color: #fda6ea;
     width: 100%
   }
   
@@ -20,16 +20,16 @@
   .logo{
     display:flex;
     border-radius: 50%;
-    height: 85px;
-    width: 85px;
+    height: 150px;
+    width: 150px;
   }
   
   .navbar a {
     color: white;
     text-decoration: none;
-    font-size: 25px;
     width: 100%;
     margin: 0;
+    font-size: 25px;
   }
   
   #open {
@@ -71,7 +71,7 @@
 
     li.nav-item {
       flex-direction: column;
-      background-color: pink;
+      background-color: #fda6ea;
       width: 100%;
       margin: 0px;
       padding: 0px;
@@ -90,7 +90,7 @@
   
     li.nav-item {
       flex-direction: column;
-      background-color: pink;
+      background-color: #fda6ea;
       width: 100%;
       
     }
