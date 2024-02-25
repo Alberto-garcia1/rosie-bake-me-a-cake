@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/just-cake/static/css/main.0b4cfda0.css",
-    "main.js": "/just-cake/static/js/main.d11d3c13.js",
-    "static/media/BakeMeACakeLogo.png": "/just-cake/static/media/BakeMeACakeLogo.05810497f068604eb5a5.png",
-    "index.html": "/just-cake/index.html",
-    "main.0b4cfda0.css.map": "/just-cake/static/css/main.0b4cfda0.css.map",
-    "main.d11d3c13.js.map": "/just-cake/static/js/main.d11d3c13.js.map"
+    "main.css": "/static/css/main.0b4cfda0.css",
+    "main.js": "/static/js/main.f005a6ec.js",
+    "static/media/BakeMeACakeLogo.png": "/static/media/BakeMeACakeLogo.05810497f068604eb5a5.png",
+    "index.html": "/index.html",
+    "main.0b4cfda0.css.map": "/static/css/main.0b4cfda0.css.map",
+    "main.f005a6ec.js.map": "/static/js/main.f005a6ec.js.map"
   },
   "entrypoints": [
     "static/css/main.0b4cfda0.css",
-    "static/js/main.d11d3c13.js"
+    "static/js/main.f005a6ec.js"
   ]
 }
