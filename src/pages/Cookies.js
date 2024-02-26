@@ -1,20 +1,22 @@
 import React from "react";
-import CookieItem from "../components/CookieItem";
 import { CookieList } from "../helpers/CookieList"; // Importing the list of projects
 import "../styles/Cakes.css";
+import { Carousel } from "react-bootstrap";
 
 function Cookies() {
   return (
     <div className="cakes">
-      <h1>Cookies</h1>
-      <div className="cakeList">
-        {/* Mapping through the list of projects and rendering ProjectItem for each */}
-        {CookieList.map((cookie, idx) => {
-          return (
-            <CookieItem key={idx} id={idx} name={cookie.name} image={cookie.image} />
-          );
-        })}
-      </div>
+      <h1>Sugar Cookies</h1>
+      <Carousel className="carousel" fluid autoPlay={true} interval={4000} controls={true} indicators={true}>
+        {CookieList.map((item) => (
+          <Carousel.Item key={item.key}>
+            <img className="d-block w-100" src={item.src} alt={item.altText} />
+            <Carousel.Caption>
+              <h3>{item.caption}</h3>
+            </Carousel.Caption>
+          </Carousel.Item>
+        ))}
+      </Carousel>
       <div>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
@@ -30,32 +32,6 @@ function Cookies() {
           lacinia est nisi, luctus molestie augue semper quis. Praesent
           facilisis scelerisque nisi.
         </p>
-      </div>
-      <div className="info-table">
-        <table>
-          <tbody>
-            <tr>
-              <th>Name</th>
-              <th>Age</th>
-              <th>Gender</th>
-            </tr>
-            <tr>
-              <td>Anom</td>
-              <td>19</td>
-              <td>Male</td>
-            </tr>
-            <tr>
-              <td>Megha</td>
-              <td>19</td>
-              <td>Female</td>
-            </tr>
-            <tr>
-              <td>Subham</td>
-              <td>25</td>
-              <td>Male</td>
-            </tr>
-          </tbody>
-        </table>
       </div>
     </div>
   );

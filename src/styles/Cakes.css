@@ -6,12 +6,7 @@
     align-items: center;
     flex-direction: column;
   }
-  .cakes .cakeTitle {
-    text-align: center;
-    color: #3e497a;
-    font-size: 60px;
-    font-weight: bolder;
-  }
+
   
   .cakeList {
     width: 70vw;
@@ -21,27 +16,6 @@
     place-items: center;
   }
 
-  .info-table {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
- 
-table {
-    border: 10px solid rgb(248, 105, 172);
-    width: 800px;
-    height: 200px;
-}
- 
-th {
-    border-bottom: 1px solid black;
-}
- 
-td {
-    text-align: center;
-}
   
 .description {
   font-size: 30px;

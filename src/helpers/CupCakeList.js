@@ -2,14 +2,23 @@
 
 // Array containing details of different projects
 export const CupCakeList = [
+  // Define items array outside of the return statement
   {
-    name: "",
-    //image: //KeeperApp, // Importing the image for the Keeper App
-    details: "6in frosted",
+    src: "https://picsum.photos/id/123/1200/400",
+    altText: "Slide 1",
+    caption: "Slide 1",
+    key: 1,
   },
   {
-    name: "",
-    //image: WeatherApp, // Importing the image for the Weather App
-    skills: "HTML, CSS, JavaScript, React, WeatherAPI",
+    src: "https://picsum.photos/id/456/1200/400",
+    altText: "Slide 2",
+    caption: "Slide 2",
+    key: 2,
+  },
+  {
+    src: "https://picsum.photos/id/678/1200/400",
+    altText: "Slide 3",
+    caption: "Slide 3",
+    key: 3,
   },
 ];

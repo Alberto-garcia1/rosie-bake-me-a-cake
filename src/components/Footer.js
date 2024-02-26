@@ -26,7 +26,7 @@ function Footer() {
         </a>
       </div>
       {/* Copyright statement */}
-      <p>Website Created by Alberto Garcia ⓒ {year} </p>
+      <p className="copyright">Website Created by Alberto Garcia ⓒ {year} </p>
     </div>
   );
 }

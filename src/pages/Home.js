@@ -1,59 +1,41 @@
 import "../styles/Home.css";
-import { Container, Row, Col, Carousel } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import BakeMeACakeLogo from "../assets/BakeMeACakeLogo.png";
 
 function Home() {
 
-  // Define items array outside of the return statement
-  const items = [
-    {
-      src: "https://picsum.photos/id/123/1200/400",
-      altText: "Slide 1",
-      caption: "Slide 1",
-      key: 1,
-    },
-    {
-      src: "https://picsum.photos/id/456/1200/400",
-      altText: "Slide 2",
-      caption: "Slide 2",
-      key: 2,
-    },
-    {
-      src: "https://picsum.photos/id/678/1200/400",
-      altText: "Slide 3",
-      caption: "Slide 3",
-      key: 3,
-    },
-  ];
-
   return (
-    <Container fluid="true">
+    <Container fluid>
       <Row>
         <Col>
           <div className="home">
-            <div className="about">
-              <h2 className="alt-font-color">Rosie </h2><h2>Bake Me A Cake</h2>
-              <div className="prompt">      
-              <img src={BakeMeACakeLogo} className="imageStyle" alt="Slogan"/>
-                <p>
-                  Baking Beautiful <br></br>Memories
-                </p>
-              </div>
+            <div className="title">
+              <h2 className="rosie">Rosie</h2>
+              <h2>Bake Me A Cake</h2>
             </div>
+            <div>
+              <img
+              className="imageStyle"
+                src={BakeMeACakeLogo}
+                alt="Baking Beautiful Memories"
+              />
+            </div>
+          </div>
+          <div className="description">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+              ultrices luctus odio, eu lobortis dui dictum non. Mauris et dui
+              dapibus, malesuada erat eu, faucibus tortor. Mauris consectetur
+              accumsan bibendum. Curabitur posuere odio nec turpis feugiat,
+              vitae ornare nunc faucibus. Praesent ac leo neque. In efficitur
+              feugiat venenatis. Nulla sed elit rutrum, viverra urna vitae,
+              consequat odio. Cras aliquam posuere faucibus. Suspendisse sit
+              amet sem tincidunt, varius sapien sit amet, malesuada leo. Proin
+              eget velit pretium magna pulvinar varius.
+            </p>
           </div>
         </Col>
       </Row>
-
-      <Carousel className="carousel" fluid autoPlay={true} interval={4000} controls={true} indicators={true}>
-        {items.map((item) => (
-          <Carousel.Item key={item.key}>
-            <img className="d-block w-100" src={item.src} alt={item.altText} />
-            <Carousel.Caption>
-              <h3>{item.caption}</h3>
-            </Carousel.Caption>
-          </Carousel.Item>
-        ))}
-      </Carousel>
     </Container>
   );
 }

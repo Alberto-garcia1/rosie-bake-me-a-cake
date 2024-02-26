@@ -1,27 +1,23 @@
 import React from "react";
-import CupCakeItem from "../components/CupCakeItem"; // Importing the ProjectItem component
 import { CupCakeList } from "../helpers/CupCakeList"; // Importing the list of projects
 import "../styles/Cakes.css";
-import { Table } from "react-bootstrap";
+import { Carousel } from "react-bootstrap";
 
 
 function CupCakes() {
   return (
     <div className="cakes">
       <h1>Cupcakes</h1>
-      <div className="cakeList">
-        {/* Mapping through the list of projects and rendering ProjectItem for each */}
-        {CupCakeList.map((cake, idx) => {
-          return (
-            <CupCakeItem
-              key={idx}
-              id={idx}
-              name={cake.name}
-              image={cake.image}
-            />
-          );
-        })}
-      </div>
+      <Carousel className="carousel" fluid autoPlay={true} interval={4000} controls={true} indicators={true}>
+        {CupCakeList.map((item) => (
+          <Carousel.Item key={item.key}>
+            <img className="d-block w-100" src={item.src} alt={item.altText} />
+            <Carousel.Caption>
+              <h3>{item.caption}</h3>
+            </Carousel.Caption>
+          </Carousel.Item>
+        ))}
+      </Carousel>
       <div>
         <p className="description" >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
@@ -37,38 +33,6 @@ function CupCakes() {
           lacinia est nisi, luctus molestie augue semper quis. Praesent
           facilisis scelerisque nisi.
         </p>
-      </div>
-      <div className="info-table">
-        <Table bordered hover responsive size="" striped>
-          <thead>
-            <tr>
-              <th>#</th>
-              <th>First Name</th>
-              <th>Last Name</th>
-              <th>Username</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th scope="row">1</th>
-              <td>Mark</td>
-              <td>Otto</td>
-              <td>@mdo</td>
-            </tr>
-            <tr>
-              <th scope="row">2</th>
-              <td>Jacob</td>
-              <td>Thornton</td>
-              <td>@fat</td>
-            </tr>
-            <tr>
-              <th scope="row">3</th>
-              <td>Larry</td>
-              <td>the Bird</td>
-              <td>@twitter</td>
-            </tr>
-          </tbody>
-        </Table>
       </div>
     </div>
   );
