@@ -16,11 +16,11 @@ function App() {
         {/* Navbar component to provide navigation */}
         <Navbar />
         <Routes>
-          <Route path="/Just-Cake" element={<Home />} />
-          <Route path="/Just-Cake/cakes" element={<Cakes />} />
-          <Route path="/Just-Cake/weddingcakes" element={<WeddingCakes />} />
-          <Route path="/Just-Cake/cupcakes" element={<CupCakes />} />
-          <Route path="/Just-Cake/cookies" element={<Cookies />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/cakes" element={<Cakes />} />
+          <Route path="/weddingcakes" element={<WeddingCakes />} />
+          <Route path="/cupcakes" element={<CupCakes />} />
+          <Route path="/cookies" element={<Cookies />} />
         </Routes>
         <Footer />
       </Router>
