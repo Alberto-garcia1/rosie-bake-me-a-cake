@@ -17,7 +17,7 @@ function CustomNavbar() {
   return (
     <div className="navbar-container">
       <Navbar expand="md" className="custom-navbar">
-        <NavbarBrand className="ms-4" href="/just-cake">
+        <NavbarBrand className="ms-4" href="/">
           <img src={Logo} alt="logo" className="logo" />
         </NavbarBrand>
         <NavbarToggler
