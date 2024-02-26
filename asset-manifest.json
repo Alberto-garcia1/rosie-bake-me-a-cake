@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.0b4cfda0.css",
-    "main.js": "/static/js/main.4fae445f.js",
+    "main.css": "/static/css/main.b5990872.css",
+    "main.js": "/static/js/main.85f6754e.js",
     "static/media/BakeMeACakeLogo.png": "/static/media/BakeMeACakeLogo.05810497f068604eb5a5.png",
     "index.html": "/index.html",
-    "main.0b4cfda0.css.map": "/static/css/main.0b4cfda0.css.map",
-    "main.4fae445f.js.map": "/static/js/main.4fae445f.js.map"
+    "main.b5990872.css.map": "/static/css/main.b5990872.css.map",
+    "main.85f6754e.js.map": "/static/js/main.85f6754e.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b4cfda0.css",
-    "static/js/main.4fae445f.js"
+    "static/css/main.b5990872.css",
+    "static/js/main.85f6754e.js"
   ]
 }
