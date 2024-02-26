@@ -27,27 +27,27 @@ function CustomNavbar() {
         <Collapse isOpen={menuOpen} navbar>
           <Nav className="ms-auto" navbar >
             <NavItem>
-              <Link className="nav-link" to="Just-Cake/">
+              <Link className="nav-link" to="/">
                 |Home|
               </Link>
             </NavItem>
             <NavItem>
-              <Link className="nav-link" to="Just-Cake/cakes">
+              <Link className="nav-link" to="/cakes">
                 |Cakes|
               </Link>
             </NavItem>
             <NavItem>
-              <Link className="nav-link" to="Just-Cake/cookies">
+              <Link className="nav-link" to="/cookies">
                 |Sugar| |Cookies|
               </Link>
             </NavItem>
             <NavItem>
-              <Link className="nav-link" to="Just-Cake/weddingCakes">
+              <Link className="nav-link" to="/weddingCakes">
                 |Wedding| |Cakes|
               </Link>
             </NavItem>
             <NavItem>
-              <Link className="nav-link" to="Just-Cake/cupcakes">
+              <Link className="nav-link" to="/cupcakes">
                 |Cupcakes|
               </Link>
             </NavItem>
