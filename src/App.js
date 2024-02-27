@@ -6,7 +6,7 @@ import Home from "./pages/Home";
 import Cakes from "./pages/Cakes";
 import WeddingCakes from "./pages/WeddingCakes";
 import CupCakes from "./pages/CupCakes";
-import Cookies from "./pages/Cookies";
+import SugarCookies from "./pages/SugarCookies";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
           <Route path="/cakes" element={<Cakes />} />
           <Route path="/weddingcakes" element={<WeddingCakes />} />
           <Route path="/cupcakes" element={<CupCakes />} />
-          <Route path="/cookies" element={<Cookies />} />
+          <Route path="/sugarcookies" element={<SugarCookies />} />
         </Routes>
         <Footer />
       </Router>

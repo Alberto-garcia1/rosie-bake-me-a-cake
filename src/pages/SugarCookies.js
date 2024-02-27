@@ -3,7 +3,7 @@ import { CookieList } from "../helpers/CookieList"; // Importing the list of pro
 import "../styles/Cakes.css";
 import { Carousel } from "react-bootstrap";
 
-function Cookies() {
+function SugarCookies() {
   return (
     <div className="cakes">
       <h1>Sugar Cookies</h1>
@@ -18,7 +18,7 @@ function Cookies() {
         ))}
       </Carousel>
       <div>
-        <p>
+        <p className="description">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
           ultrices luctus odio, eu lobortis dui dictum non. Mauris et dui
           dapibus, malesuada erat eu, faucibus tortor. Mauris consectetur
@@ -37,4 +37,4 @@ function Cookies() {
   );
 }
 
-export default Cookies;
+export default SugarCookies;

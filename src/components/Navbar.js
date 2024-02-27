@@ -37,7 +37,7 @@ function CustomNavbar() {
               </Link>
             </NavItem>
             <NavItem>
-              <Link className="nav-link" to="/cookies">
+              <Link className="nav-link" to="/sugarcookies">
                 |Sugar| |Cookies|
               </Link>
             </NavItem>
