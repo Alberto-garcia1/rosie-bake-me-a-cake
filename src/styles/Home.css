@@ -22,6 +22,8 @@ h2 {
 .title {
   color:#fda6ea;
   padding-top: 35px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .rosie {
@@ -30,14 +32,16 @@ h2 {
 }
 
 .description {
-  font-size: 80px; 
+  font-size: 65px; 
   align-items: center;
   margin-top: 30px;
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
 }
 
 
 .imageStyle {
-  width: 250px;
+  width: 350px;
   /* border-Radius: 50%; */
   margin-bottom: 30px; 
   margin-top: 0;
@@ -46,23 +50,29 @@ h2 {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding-top: 70px;
+  padding-top: 50px;
 }
 
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 480px) {
   .description {
     font-size: 40px;
   }
+  .title{
+    font-size: 70px;
+  }
+
+  .rosie {
+    font-size: 70px;
+  }
 
   .imageStyle {
-    width: 125px;
+    width: 205px;
   }
   
   p {
     font-size: 15px;
   }
-
 }
 
