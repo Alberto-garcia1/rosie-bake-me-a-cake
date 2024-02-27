@@ -6,7 +6,7 @@ import { Carousel } from "react-bootstrap";
 function SugarCookies() {
   return (
     <div className="cakes">
-      <h1>Sugar Cookies</h1>
+      <h1 className="title-of-products">Sugar Cookies</h1>
       <Carousel className="carousel" fluid autoPlay={true} interval={4000} controls={true} indicators={true}>
         {CookieList.map((item) => (
           <Carousel.Item key={item.key}>

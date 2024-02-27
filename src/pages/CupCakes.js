@@ -7,7 +7,7 @@ import { Carousel } from "react-bootstrap";
 function CupCakes() {
   return (
     <div className="cakes">
-      <h1>Cupcakes</h1>
+      <h1 className="title-of-products">Cupcakes</h1>
       <Carousel className="carousel" fluid autoPlay={true} interval={4000} controls={true} indicators={true}>
         {CupCakeList.map((item) => (
           <Carousel.Item key={item.key}>

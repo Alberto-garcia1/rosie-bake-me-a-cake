@@ -7,18 +7,18 @@
     flex-direction: column;
   }
 
-  .title-of-products{
+.title-of-products{
     padding-top: 40px;
-  }
+}
 
-  .carousel {
+.carousel {
     width:900px;
     height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-  }
+}
   
 .description {
   font-size: 30px;
@@ -29,43 +29,28 @@
   font-family: "Nunito Sans", sans-serif;
   font-optical-sizing: auto;
 }
-  /* MENU ITEM STYLING */
   
-  .cakeItem {
-    border-radius: 15px;
-    width: 300px;
-    height: 300px;
-    margin: 40px;
-    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
-    text-align: center;
-
-  }
   
-  h1 {
+h1 {
     font-size: 25px;
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
     font-weight:300;
     font-style: italic;
-  }
+}
   
-  @media only screen and (max-width: 1300px) {
-  }
-  
-  @media only screen and (max-width: 800px) {
-  }
-  
-  @media only screen and (max-width: 800px) {
-    .description {
+@media only screen and (max-width: 800px) {
+  .description {
       font-size: 15px;
-    }
-    .title{
+  }
+
+  .title {
       font-size: 70px;
-    }
+  }
     
-    p {
+  p {
       font-size: 15px;
-    }
+  }
   .carousel {
     width:350px;
     height: 150px;
