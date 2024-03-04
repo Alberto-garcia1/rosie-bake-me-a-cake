@@ -2,7 +2,7 @@ import React from "react";
 import { CupCakeList } from "../helpers/CupCakeList"; // Importing the list of projects
 import "../styles/Cakes.css";
 import { Carousel } from "react-bootstrap";
-
+import CupcakeForm from "../assets/CupcakeForm.pdf";
 
 function CupCakes() {
   return (
@@ -27,7 +27,7 @@ function CupCakes() {
           ornare nunc faucibus. Praesent ac leo neque. In efficitur feugiat
           venenatis. Nulla sed elit rutrum, viverra urna vitae, consequat odio.
           Cras aliquam posuere faucibus. Suspendisse sit amet sem tincidunt,
-          varius sapien sit amet, malesuada leo. <a href="https://www.google.com">Go to Google</a>
+          varius sapien sit amet, malesuada leo. <a href={CupcakeForm} download="CupcakeForm.pdf">here</a>
           Proin eget velit pretium magna
           pulvinar varius. Praesent porttitor mi at sapien blandit, quis sodales
           augue vestibulum. Etiam vel turpis quis mi hendrerit iaculis. Aenean
