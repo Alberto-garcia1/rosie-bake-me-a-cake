@@ -1,15 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.07a4fbdc.css",
-    "main.js": "/static/js/main.c8bba8eb.js",
+    "main.js": "/static/js/main.f3823c85.js",
+    "static/media/CakeForm.pdf": "/static/media/CakeForm.6b72e7fff0b02339d306.pdf",
+    "static/media/CookieForm.pdf": "/static/media/CookieForm.5e4795d1e169401a6e5d.pdf",
+    "static/media/CupcakeForm.pdf": "/static/media/CupcakeForm.3c1b3fbe781c0d4e5b50.pdf",
     "static/media/Logo.jpg": "/static/media/Logo.3e17c2ba203a56139c22.jpg",
     "static/media/BakeMeACakeLogo.png": "/static/media/BakeMeACakeLogo.eaba79ffa92068de33b7.png",
     "index.html": "/index.html",
     "main.07a4fbdc.css.map": "/static/css/main.07a4fbdc.css.map",
-    "main.c8bba8eb.js.map": "/static/js/main.c8bba8eb.js.map"
+    "main.f3823c85.js.map": "/static/js/main.f3823c85.js.map"
   },
   "entrypoints": [
     "static/css/main.07a4fbdc.css",
-    "static/js/main.c8bba8eb.js"
+    "static/js/main.f3823c85.js"
   ]
 }
