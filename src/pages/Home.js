@@ -1,6 +1,6 @@
 import "../styles/Home.css";
 import { Container, Row, Col } from "react-bootstrap";
-import BakeMeACakeLogo from "../assets/BakeMeACakeLogo.png";
+import Logo from "../assets/Logo.jpg";
 
 function Home() {
 
@@ -9,14 +9,10 @@ function Home() {
       <Row>
         <Col>
           <div className="home">
-            <div className="title">
-              <h2 className="rosie">Rosie</h2>
-              <h2>Bake Me A Cake</h2>
-            </div>
             <div>
               <img
               className="imageStyle"
-                src={BakeMeACakeLogo}
+                src={Logo}
                 alt="Baking Beautiful Memories"
               />
             </div>

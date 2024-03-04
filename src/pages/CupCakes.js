@@ -27,7 +27,8 @@ function CupCakes() {
           ornare nunc faucibus. Praesent ac leo neque. In efficitur feugiat
           venenatis. Nulla sed elit rutrum, viverra urna vitae, consequat odio.
           Cras aliquam posuere faucibus. Suspendisse sit amet sem tincidunt,
-          varius sapien sit amet, malesuada leo. Proin eget velit pretium magna
+          varius sapien sit amet, malesuada leo. <a href="https://www.google.com">Go to Google</a>
+          Proin eget velit pretium magna
           pulvinar varius. Praesent porttitor mi at sapien blandit, quis sodales
           augue vestibulum. Etiam vel turpis quis mi hendrerit iaculis. Aenean
           lacinia est nisi, luctus molestie augue semper quis. Praesent

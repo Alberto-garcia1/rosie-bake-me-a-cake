@@ -39,8 +39,9 @@ h2 {
 
 
 .imageStyle {
-  width: 350px;
-  margin-bottom: 30px; 
+  width: 250px;
+  margin-bottom: 15px; 
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
