@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.322da1fe.css",
-    "main.js": "/static/js/main.e73e09bd.js",
-    "static/media/Logo.jpg": "/static/media/Logo.caa4a8ba18731a740acb.jpg",
-    "static/media/BakeMeACakeLogo.png": "/static/media/BakeMeACakeLogo.790cf84e4635425abbec.png",
+    "main.css": "/static/css/main.07a4fbdc.css",
+    "main.js": "/static/js/main.c8bba8eb.js",
+    "static/media/Logo.jpg": "/static/media/Logo.3e17c2ba203a56139c22.jpg",
+    "static/media/BakeMeACakeLogo.png": "/static/media/BakeMeACakeLogo.eaba79ffa92068de33b7.png",
     "index.html": "/index.html",
-    "main.322da1fe.css.map": "/static/css/main.322da1fe.css.map",
-    "main.e73e09bd.js.map": "/static/js/main.e73e09bd.js.map"
+    "main.07a4fbdc.css.map": "/static/css/main.07a4fbdc.css.map",
+    "main.c8bba8eb.js.map": "/static/js/main.c8bba8eb.js.map"
   },
   "entrypoints": [
-    "static/css/main.322da1fe.css",
-    "static/js/main.e73e09bd.js"
+    "static/css/main.07a4fbdc.css",
+    "static/js/main.c8bba8eb.js"
   ]
 }
