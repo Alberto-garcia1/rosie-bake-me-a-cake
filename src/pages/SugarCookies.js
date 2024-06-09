@@ -27,21 +27,11 @@ function SugarCookies() {
       </Carousel>
       <div>
         <p className="description">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-          ultrices luctus odio, eu lobortis dui dictum non. Mauris et dui
-          dapibus, malesuada erat eu, faucibus tortor. Mauris consectetur
-          accumsan bibendum. Curabitur posuere odio nec turpis feugiat, vitae
-          ornare nunc faucibus.
+          Please fill out the following {" "}
           <a href={CookieForm} download="CookieForm.pdf">
-            here
+            form 
           </a>
-          ac leo neque. In efficitur feugiat venenatis. Nulla sed elit rutrum,
-          viverra urna vitae, consequat odio. Cras aliquam posuere faucibus.
-          Suspendisse sit amet sem tincidunt, varius sapien sit amet, malesuada
-          leo. Proin eget velit pretium magna pulvinar varius. Praesent
-          porttitor mi at sapien blandit, quis sodales augue vestibulum. Etiam
-          vel turpis quis mi hendrerit iaculis. Aenean lacinia est nisi, luctus
-          molestie augue semper quis. Praesent facilisis scelerisque nisi.
+          {" "}and email it to me. I will get back to you as soon as possible.
         </p>
       </div>
     </div>
