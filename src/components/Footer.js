@@ -18,7 +18,7 @@ function Footer() {
         </a>
         {/* Email link */}
         <a
-          href="mailto:albertogarcia2220@gmail.com"
+          href="mailto:rosiear15@icloud.com"
           target="_blank"
           rel="noopener noreferrer"
         >

@@ -18,7 +18,7 @@
 
 .link {
   font-size: 25px;
-  font-family: 'Playfair Dispaly';
+  font-family: 'Playfair Dispaly', serif;
 }
 
 .nav-link {
@@ -29,3 +29,4 @@
   display: flex;
   flex-direction: row;
 }
+
