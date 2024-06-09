@@ -3,7 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import Logo from "../assets/Logo.jpg";
 
 function Home() {
-
   return (
     <Container fluid>
       <Row>
@@ -11,7 +10,7 @@ function Home() {
           <div className="home">
             <div>
               <img
-              className="imageStyle"
+                className="imageStyle"
                 src={Logo}
                 alt="Baking Beautiful Memories"
               />
@@ -19,15 +18,11 @@ function Home() {
           </div>
           <div className="description">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-              ultrices luctus odio, eu lobortis dui dictum non. Mauris et dui
-              dapibus, malesuada erat eu, faucibus tortor. Mauris consectetur
-              accumsan bibendum. Curabitur posuere odio nec turpis feugiat,
-              vitae ornare nunc faucibus. Praesent ac leo neque. In efficitur
-              feugiat venenatis. Nulla sed elit rutrum, viverra urna vitae,
-              consequat odio. Cras aliquam posuere faucibus. Suspendisse sit
-              amet sem tincidunt, varius sapien sit amet, malesuada leo. Proin
-              eget velit pretium magna pulvinar varius.
+              Serving Pueblo Colorado with custom cakes, cupcakes and sugar
+              cookies! Ordering is a piece of cake, simply fill out an order
+              form to share your ideas with me to make your treats come true.
+              Once this process is completed I will email you an invoice with
+              further information and availability.
             </p>
           </div>
         </Col>
