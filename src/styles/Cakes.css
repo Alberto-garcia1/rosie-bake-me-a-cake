@@ -1,25 +1,25 @@
 .cakes {
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
-.title-of-products{
-    padding-top: 40px;
+.title-of-products {
+  padding-top: 40px;
 }
 
 .carousel {
-    width:900px;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  width: 900px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-  
+
 .description {
   font-size: 30px;
   align-items: center;
@@ -29,14 +29,13 @@
   font-family: "Nunito Sans", sans-serif;
   font-optical-sizing: auto;
 }
-  
-  
+
 h1 {
-    font-size: 25px;
-    font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
-    font-weight:300;
-    font-style: italic;
+  font-size: 25px;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: italic;
 }
 
 .carousel img {
@@ -55,21 +54,48 @@ h1 {
   filter: invert(100%); /* This ensures the icons are black */
 }
 
-  
+.carousel-caption-custom {
+  background: rgba(0, 0, 0, 0.5); /* Add a background to make text more readable */
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.carousel-caption-custom h3 {
+  font-size: 20px; /* Adjust the font size for captions */
+  color: #fff; /* Ensure the text is readable */
+}
+
 @media only screen and (max-width: 800px) {
   .description {
-      font-size: 15px;
+    font-size: 15px;
   }
 
   .title {
-      font-size: 70px;
+    font-size: 70px;
   }
-    
+
   p {
-      font-size: 15px;
+    font-size: 15px;
   }
+
   .carousel {
-    width:350px;
+    width: 350px;
     height: 150px;
+  }
+
+  .carousel img {
+    height: 160px; /* Set the desired height */
+    width: auto; /* Ensure the width adjusts automatically */
+    object-fit: scale-down; /* This makes sure the image covers the given height while maintaining aspect ratio */
+  }
+
+  .carousel-caption-custom h3 {
+    font-size: 13px; /* Adjust the font size for captions on smaller screens */
+    margin: 0;
+    
+  }
+
+  .carousel-caption-custom {
+    background: none;
   }
 }

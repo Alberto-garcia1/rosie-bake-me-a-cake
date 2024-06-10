@@ -19,7 +19,7 @@ function WeddingCakes() {
         {WeddingCakeList.map((item) => (
           <Carousel.Item key={item.key}>
             <img className="d-block w-100" src={item.src} alt={item.altText} />
-            <Carousel.Caption>
+            <Carousel.Caption className="carousel-caption-custom">
               <h3>{item.caption}</h3>
             </Carousel.Caption>
           </Carousel.Item>
@@ -39,3 +39,4 @@ function WeddingCakes() {
 }
 
 export default WeddingCakes;
+
