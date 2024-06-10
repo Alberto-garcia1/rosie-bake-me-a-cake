@@ -1,18 +1,33 @@
 {
   "files": {
-    "main.css": "/static/css/main.df0cbcfa.css",
-    "main.js": "/static/js/main.56991b94.js",
+    "main.css": "/static/css/main.7268f2e9.css",
+    "main.js": "/static/js/main.d5d88f1d.js",
     "static/media/CakeForm.pdf": "/static/media/CakeForm.42518d6c6115de3d0c87.pdf",
     "static/media/CupcakeForm.pdf": "/static/media/CupcakeForm.2c4b5e435091562f8e3c.pdf",
     "static/media/CookieForm.pdf": "/static/media/CookieForm.2e2d7ed0bb970eae6543.pdf",
+    "static/media/Cookie2.jpg": "/static/media/Cookie2.b45754f92e818eef0424.jpg",
+    "static/media/Cookie4.jpg": "/static/media/Cookie4.af999abf56784dfd8495.jpg",
+    "static/media/Cupcake4.jpg": "/static/media/Cupcake4.cebc19eaa89bc53e6629.jpg",
+    "static/media/CardiacCake.jpg": "/static/media/CardiacCake.4076e68e27112121f792.jpg",
+    "static/media/Wedding1.jpg": "/static/media/Wedding1.1f93891fe3dc8d0e9a23.jpg",
+    "static/media/Cupcake1.jpg": "/static/media/Cupcake1.31ab52f5036a2aa804ce.jpg",
+    "static/media/Cookie3.jpg": "/static/media/Cookie3.b9126750dfd343a97f1c.jpg",
+    "static/media/Cookie1.jpg": "/static/media/Cookie1.aecd3d1760303733701e.jpg",
+    "static/media/Cupcake2.jpg": "/static/media/Cupcake2.ecc899f395f2ade58144.jpg",
+    "static/media/Wedding3.jpg": "/static/media/Wedding3.80f952b617cb65c2eda6.jpg",
+    "static/media/Cupcake3.jpg": "/static/media/Cupcake3.06a0add402cae51f7090.jpg",
+    "static/media/SpongebobCake.jpg": "/static/media/SpongebobCake.d5b639a21c337e8b93d5.jpg",
+    "static/media/BarbieCake.jpg": "/static/media/BarbieCake.47c85bdbf8bd19a2bee4.jpg",
+    "static/media/Wedding2.jpg": "/static/media/Wedding2.fbfbbdb5f8d6077bdb28.jpg",
+    "static/media/MikeyMouseCake.jpg": "/static/media/MikeyMouseCake.ffd71510113606ea2e5f.jpg",
     "static/media/Logo.jpg": "/static/media/Logo.3e17c2ba203a56139c22.jpg",
     "static/media/BakeMeACakeLogo.png": "/static/media/BakeMeACakeLogo.eaba79ffa92068de33b7.png",
     "index.html": "/index.html",
-    "main.df0cbcfa.css.map": "/static/css/main.df0cbcfa.css.map",
-    "main.56991b94.js.map": "/static/js/main.56991b94.js.map"
+    "main.7268f2e9.css.map": "/static/css/main.7268f2e9.css.map",
+    "main.d5d88f1d.js.map": "/static/js/main.d5d88f1d.js.map"
   },
   "entrypoints": [
-    "static/css/main.df0cbcfa.css",
-    "static/js/main.56991b94.js"
+    "static/css/main.7268f2e9.css",
+    "static/js/main.d5d88f1d.js"
   ]
 }
