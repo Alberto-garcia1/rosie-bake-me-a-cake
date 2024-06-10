@@ -1,24 +1,34 @@
 //Add Images for cake
+import Cupcake1 from "../assets/Cupcake1.jpg";
+import Cupcake2 from "../assets/Cupcake2.jpg";
+import Cupcake3 from "../assets/Cupcake3.jpg";
+import Cupcake4 from "../assets/Cupcake4.jpg";
 
 // Array containing details of different projects
 export const CupCakeList = [
   // Define items array outside of the return statement
   {
-    src: "https://picsum.photos/id/123/1200/400",
-    altText: "Slide 1",
-    caption: "Slide 1",
+    src: Cupcake1,
+    altText: "Hippie Birthday",
+    caption: "Hippie Birthday",
     key: 1,
   },
   {
-    src: "https://picsum.photos/id/456/1200/400",
-    altText: "Slide 2",
-    caption: "Slide 2",
+    src: Cupcake2,
+    altText: "1st Birthday",
+    caption: "1st Birthday",
     key: 2,
   },
   {
-    src: "https://picsum.photos/id/678/1200/400",
-    altText: "Slide 3",
-    caption: "Slide 3",
+    src: Cupcake3,
+    altText: "Floral Design",
+    caption: "Floaral Design",
     key: 3,
+  },
+  {
+    src: Cupcake4,
+    altText: "CSU-P Graduation",
+    caption: "CSU-P Graduation",
+    key: 4,
   },
 ];

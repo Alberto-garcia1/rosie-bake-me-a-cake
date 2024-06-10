@@ -1,24 +1,34 @@
 //Add Images for cake
+import SpongebobCake from "../assets/SpongebobCake.jpg";
+import BarbieCake from "../assets/BarbieCake.jpg";
+import CardiacCake from "../assets/CardiacCake.jpg";
+import MikeyMouseCake from "../assets/MikeyMouseCake.jpg";
 
 // Array containing details of different projects
 export const CakeList = [
   // Define items array outside of the return statement
     {
-      src: "https://picsum.photos/id/123/1200/400",
-      altText: "Slide 1",
-      caption: "Slide 1",
+      src: SpongebobCake,
+      altText: "Spongebob Cake",
+      caption: "Spongebob Cake",
       key: 1,
     },
     {
-      src: "https://picsum.photos/id/456/1200/400",
-      altText: "Slide 2",
-      caption: "Slide 2",
+      src: BarbieCake,
+      altText: "Barbie Cake",
+      caption: "Barbie Cake",
       key: 2,
     },
     {
-      src: "https://picsum.photos/id/678/1200/400",
-      altText: "Slide 3",
-      caption: "Slide 3",
+      src: CardiacCake,
+      altText: "CardiacCake",
+      caption: "CardiacCake",
       key: 3,
+    },
+    {
+      src: MikeyMouseCake,
+      altText: "Mikey Mouse Cake",
+      caption: "Mikey Mouse Cake",
+      key: 4,
     },
   ];

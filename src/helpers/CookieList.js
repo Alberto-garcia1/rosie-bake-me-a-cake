@@ -1,24 +1,34 @@
 //Add Images for cake
+import Cookie1 from "../assets/Cookie1.jpg"
+import Cookie2 from "../assets/Cookie2.jpg"
+import Cookie3 from "../assets/Cookie3.jpg"
+import Cookie4 from "../assets/Cookie4.jpg"
 
 // Array containing details of different projects
 export const CookieList = [
   // Define items array outside of the return statement
   {
-    src: "https://picsum.photos/id/123/1200/400",
-    altText: "Slide 1",
-    caption: "Slide 1",
+    src: Cookie1,
+    altText: "Horse Cookies",
+    caption: "Horses",
     key: 1,
   },
   {
-    src: "https://picsum.photos/id/456/1200/400",
-    altText: "Slide 2",
-    caption: "Slide 2",
+    src: Cookie2,
+    altText: "Graduation Cookies",
+    caption: "Pueblo West Graduation",
     key: 2,
   },
   {
-    src: "https://picsum.photos/id/678/1200/400",
-    altText: "Slide 3",
-    caption: "Slide 3",
+    src: Cookie3,
+    altText: "Halloween Cookies",
+    caption: "Halloween Cookies",
     key: 3,
+  },
+  {
+    src: Cookie4,
+    altText: "Gender Reveal",
+    caption: "Geneder Reveal",
+    key: 4,
   },
 ];

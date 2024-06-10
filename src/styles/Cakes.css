@@ -38,6 +38,23 @@ h1 {
     font-weight:300;
     font-style: italic;
 }
+
+.carousel img {
+  height: 420px; /* Set the desired height */
+  width: auto; /* Ensure the width adjusts automatically */
+  object-fit: scale-down; /* This makes sure the image covers the given height while maintaining aspect ratio */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black; /* Change the arrow color to black */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  filter: invert(100%); /* This ensures the icons are black */
+}
+
   
 @media only screen and (max-width: 800px) {
   .description {
