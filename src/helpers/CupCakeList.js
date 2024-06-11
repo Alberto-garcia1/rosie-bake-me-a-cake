@@ -22,7 +22,7 @@ export const CupCakeList = [
   {
     src: Cupcake3,
     altText: "Floral Design",
-    caption: "Floaral Design",
+    caption: "Floral Design",
     key: 3,
   },
   {

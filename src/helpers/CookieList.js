@@ -28,7 +28,7 @@ export const CookieList = [
   {
     src: Cookie4,
     altText: "Gender Reveal",
-    caption: "Geneder Reveal",
+    caption: "Gender Reveal",
     key: 4,
   },
 ];

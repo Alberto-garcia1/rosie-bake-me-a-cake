@@ -27,7 +27,7 @@ function Cakes() {
       </Carousel>
       <div>
         <p className="description">
-        Please fill out this.{" "}
+        Please fill out this{" "}
           <a href={CakeForm} download="CakeForm.pdf">
             form
           </a>{" "}
