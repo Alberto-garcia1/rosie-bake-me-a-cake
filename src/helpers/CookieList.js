@@ -9,8 +9,8 @@ export const CookieList = [
   // Define items array outside of the return statement
   {
     src: Cookie1,
-    altText: "Horse Cookies",
-    caption: "Horses",
+    altText: "Birthday Cookies",
+    caption: "Birthday Cookies",
     key: 1,
   },
   {

@@ -2,7 +2,7 @@
 import SpongebobCake from "../assets/SpongebobCake.jpg";
 import BarbieCake from "../assets/BarbieCake.jpg";
 import CardiacCake from "../assets/CardiacCake.jpg";
-import MikeyMouseCake from "../assets/MikeyMouseCake.jpg";
+import MickeyMouseCake from "../assets/MickeyMouseCake.jpg";
 
 // Array containing details of different projects
 export const CakeList = [
@@ -26,9 +26,9 @@ export const CakeList = [
       key: 3,
     },
     {
-      src: MikeyMouseCake,
-      altText: "Mikey Mouse Cake",
-      caption: "Mikey Mouse Cake",
+      src: MickeyMouseCake,
+      altText: "Mickey Mouse Cake",
+      caption: "Mickey Mouse Cake",
       key: 4,
     },
   ];
